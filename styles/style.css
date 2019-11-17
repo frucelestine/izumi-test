@@ -292,7 +292,7 @@ body {
 .slick-next {
   height: 37px !important;
   width: 37px !important;
-  background-color: #999999;
+  background-color: #999999 !important;
   top: 33% !important;
   z-index: 1;
 }

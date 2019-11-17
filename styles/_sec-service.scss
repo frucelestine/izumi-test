@@ -1,0 +1,70 @@
+.service {
+  padding: 22px 190px 140px;
+  text-align: center;
+  color: #555555;
+
+  & .service_heading {
+    @include sec-heading;
+  }
+
+  & .service_note {
+    @include sec-note;
+  }
+}
+
+.service_article {
+  display: flex;
+  justify-content: space-between;
+
+  & .article-block {
+    width: 300px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0 20px;
+
+    & .block--img {
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 0 auto;
+      height: 90px;
+      width: 90px;
+      border: 2px solid #dddddd;
+      border-radius: 50%;
+      transition: background-color 0.5s, background-image 0.5s;
+
+      &.img1 {
+        background-image: url("/images/fa-font-norm.png");
+      }
+
+      &.img2 {
+        background-image: url("/images/code.png");
+      }
+
+      &.img3 {
+        background-image: url("/images/ring.png");
+      }
+    }
+
+    & .block--heading {
+      font-size: 14px;
+    }
+
+    & .block--note {
+      @include text-style;
+    }
+    &:hover .block--img.img1 {
+      background-image: url("/images/fa-font-hov.png");
+      background-color: #c0301c;
+    }
+
+    &:hover .block--img.img2 {
+      background-image: url("/images/code-norm.png");
+      background-color: #c0301c;
+    }
+
+    &:hover .block--img.img3 {
+      background-image: url("/images/fa-sup-hov.png");
+      background-color: #c0301c;
+    }
+  }
+}

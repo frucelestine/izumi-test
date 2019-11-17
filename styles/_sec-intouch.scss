@@ -1,0 +1,131 @@
+@mixin intouch-contact {
+  content: " ";
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.intouch {
+  padding: 22px 190px 140px;
+  text-align: center;
+
+  & intouch_heading {
+    @include sec-heading;
+  }
+
+  & .intouch_note {
+    @include sec-note;
+  }
+
+  & .intouch_contact {
+    display: flex;
+    justify-content: space-between;
+
+    & .contact-info {
+      max-width: 240px;
+      text-align: left;
+    }
+
+    & .sub-blog {
+      padding-left: 30px;
+      position: relative;
+    }
+
+    & .address::before {
+      background-image: url("/images/adress.png");
+      @include intouch-contact;
+    }
+
+    & .hotline::before {
+      background-image: url("/images/fa-phone.png");
+      @include intouch-contact;
+    }
+
+    & .email::before {
+      background-image: url("/images/fa-email.png");
+      @include intouch-contact;
+    }
+  }
+}
+
+.info-heading {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.info-note {
+  font-size: 12px;
+  font-family: "Roboto Slab", serif;
+}
+
+.contact-form {
+  width: fit-content;
+  text-align: left;
+}
+
+.form-input {
+  outline: none;
+  width: 320px;
+  height: 43px;
+  margin: 10px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  border: 1px solid #555555;
+  transition: border 0.5s;
+
+  &:hover {
+    border: 1px solid #c0301c;
+  }
+}
+#message {
+  padding: 20px;
+  width: 100%;
+  height: 100px;
+  box-sizing: border-box;
+  outline: none;
+  border: 1px solid #555555;
+  transition: border 0.5s;
+  margin: 5px 0 15px;
+
+  &:hover {
+    border: 1px solid #c0301c;
+  }
+}
+
+.form-button {
+  outline: none;
+  cursor: pointer;
+  color: #555555;
+  box-sizing: border-box;
+  border: 1px solid #555555;
+  background-color: transparent;
+  padding: 20px 34px;
+  font-size: 16px;
+  margin-right: 38px;
+  transition: background-color 0.5s, color 0.5s;
+
+  &:hover {
+    background-color: #c0301c;
+    color: white;
+    border: 1px solid #c0301c;
+  }
+}
+
+#name, #subject{
+  margin-left: 0;
+}
+
+#email, #company{
+  margin-right: 0;
+}
+
+.assurance{
+  font-family: "Roboto Slab", serif;
+  font-size: 12px;
+
+  &::first-letter{
+    color: #c0301c;
+  }
+}

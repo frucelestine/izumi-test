@@ -1,0 +1,43 @@
+@mixin sec-heading {
+  font-size: 20px;
+  margin: 50px 0 70px;
+  position: relative;
+
+  &::before {
+    content: " ";
+    height: 2px;
+    width: 56px;
+    background-color: #555555;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@mixin sec-note {
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  margin-bottom: 60px;
+}
+@mixin text-style {
+  font-family: "Roboto Slab", serif;
+  font-size: 14px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #555555;
+}
+
+@import "header";
+@import "sec-service";
+@import "sec-about";
+@import "sec-latest";
+@import "sec-project";
+@import "sec-posts";
+@import "sec-clients";
+@import "sec-intouch";
+@import "footer";
+@import "media-querry"

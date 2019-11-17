@@ -1,0 +1,72 @@
+.posts{
+    padding: 22px 190px 140px;
+    text-align: center;
+
+    & .posts_heading{
+        @include sec-heading;
+    }
+
+    & .posts_note{
+        @include sec-note;
+    }
+
+    & .posts_blog{
+        display: flex;
+        justify-content: space-between;
+
+        & .blog-img{
+            height: 323px;
+            max-width: 400px;
+        }
+    }
+}
+
+.blog-detail{
+    margin: 0 40px;
+    box-sizing: border-box;
+    position: relative;
+    transition: color 0.5s;
+
+    & .blog-detail--heading{
+        font-size: 16px;
+    }
+
+    & .blog-detail--note{
+        font-family: "Roboto Slab", serif;
+        font-size: 13px;
+        font-style: italic;
+    }
+
+    & .blog-detail--text{
+        text-align: left;
+        font-family: "Roboto Slab", serif;
+        font-size: 14px;  
+        margin-bottom: 30px;
+    }
+
+    & .read-more{
+        font-family: "Roboto Slab", serif;
+        font-size: 13px;
+        text-align: left;
+    }
+
+    &::before{
+        content: " ";
+        background-image: url("/images/date.png");
+        height: 76px;
+        width: 76px;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    &:hover .fix{
+        color: #c0301c;
+    }
+}
+.seperator{
+    height: 1px;
+    width: 100%;
+    margin: 60px auto;
+    background-color: #dddddd;
+}

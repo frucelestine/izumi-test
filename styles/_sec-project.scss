@@ -1,0 +1,35 @@
+.project{
+    background-image: url("/images/baner2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 432px;
+    color: white;
+    position: relative;
+    margin-bottom: 40px;
+
+    & .project_note{
+        font-size: 30px;
+        margin-top: 20px;
+        font-family: "Roboto Slab", serif;
+    }
+
+    & .project_button{
+      font-family: "Roboto Slab", serif;
+      font-size: 14px;
+      outline: none;
+      color: #ffffff;
+      border-radius: 2px;
+      padding: 15px 20px;
+      border: 2px solid white;
+      background: transparent;
+      cursor: pointer;
+      transition: background-color 0.5s, color 0.5s;
+
+      &:hover{
+        color: #c0301c;
+        background-color: white;
+      }
+    }
+
+}

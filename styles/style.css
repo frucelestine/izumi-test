@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-  background-image: url("../images/baner.JPG");
+  background-image: url("../images/baner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 22px 190px 140px;
@@ -576,7 +576,7 @@ body {
 
 .blog-detail::before {
   content: " ";
-  background-image: url("/images/date.png");
+  background-image: url("../images/date.png");
   height: 76px;
   width: 76px;
   position: absolute;

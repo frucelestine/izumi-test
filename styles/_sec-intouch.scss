@@ -34,17 +34,17 @@
     }
 
     & .address::before {
-      background-image: url("/images/adress.png");
+      background-image: url("../images/adress.png");
       @include intouch-contact;
     }
 
     & .hotline::before {
-      background-image: url("/images/fa-phone.png");
+      background-image: url("../images/fa-phone.png");
       @include intouch-contact;
     }
 
     & .email::before {
-      background-image: url("/images/fa-email.png");
+      background-image: url("../images/fa-email.png");
       @include intouch-contact;
     }
   }

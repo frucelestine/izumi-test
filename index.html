@@ -31,12 +31,12 @@
         </div>
         <ul class="nav-list">
           <li><a class="nav-list_item" href="#">Home</a></li>
-          <li><a class="nav-list_item" href="#">Services</a></li>
-          <li><a class="nav-list_item" href="#">About</a></li>
-          <li><a class="nav-list_item" href="#">Works</a></li>
-          <li><a class="nav-list_item" href="#">Blog</a></li>
-          <li><a class="nav-list_item" href="#">Clients</a></li>
-          <li><a class="nav-list_item" href="#">Contact</a></li>
+          <li><a class="nav-list_item" href="#sec_service">Services</a></li>
+          <li><a class="nav-list_item" href="#sec_about">About</a></li>
+          <li><a class="nav-list_item" href="#sec_works">Works</a></li>
+          <li><a class="nav-list_item" href="#sec_blog">Blog</a></li>
+          <li><a class="nav-list_item" href="#sec_clients">Clients</a></li>
+          <li><a class="nav-list_item" href="#sec_contact">Contact</a></li>
         </ul>
       </nav>
       <section class="welcome">
@@ -50,7 +50,7 @@
     <!-- START OF MAIN BLOCK -->
     <main class="main">
       <!-- SECTION SERVICES -->
-      <section class="service">
+      <section class="service" id="sec_service">
         <h4 class="service_heading">SERVICES</h4>
         <p class="service_note">
           We offer ipsum dolor sit amet, consetetur sadipscing elitr amet 16pt
@@ -88,7 +88,7 @@
       </section>
 
       <!-- ABOUT US SECTION -->
-      <section class="about">
+      <section class="about" id="sec_about">
         <h4 class="about_heading">ABOUT US</h4>
         <p class="about_note">
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet
@@ -220,7 +220,7 @@
         </section>
 
       <!-- SECTION LATEST -->
-      <section class="latest">
+      <section class="latest" id="sec_works">
         <h4 class="latest_heading">LATEST WORK</h4>
         <ul class="latest_nav">
           <li class="latest_nav-items"><a href="#">All</a></li>
@@ -332,7 +332,7 @@
       </section>
 
       <!-- SECTION BLOG POSTS -->
-      <section class="posts">
+      <section class="posts" id="sec_blog">
         <h4 class="posts_heading">RECENT BLOG POSTS</h4>
         <p class="posts_note">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
         <div class="posts_blog">
@@ -365,7 +365,7 @@
       </section>
 
       <!-- SECTION CLIENTS -->
-      <section class="clients">
+      <section class="clients" id="sec_clients">
         <div class="clients_slide">
           <div class="slide-items">
         <ul class="clients_logo">
@@ -413,7 +413,7 @@
       </section>
 
       <!-- SECTION IN TOUCH -->
-      <section class="intouch">
+      <section class="intouch" id="sec_contact">
         <h4 class="intouch_heading">GET IN TOUCH</h4>
         <p class="intouch_note">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
         <div class="intouch_contact">
@@ -477,6 +477,7 @@
       </ul>
       <p class="foot_note">© 2015 Startup, Designed by ShapedTheme</p>
     </footer>
+    <button onclick="topFunction(500)" id="myBtn" title="Go to top"><img src="./images/up-arrow.png" alt="to top arrow"></button>
     <script
       type="text/javascript"
       src="//code.jquery.com/jquery-1.11.0.min.js"

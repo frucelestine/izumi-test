@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-  background-image: url("/images/baner.jpg");
+  background-image: url("../images/baner.JPG");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 22px 190px 140px;
@@ -177,15 +177,15 @@ body {
 }
 
 .service_article .article-block .block--img.img1 {
-  background-image: url("/images/fa-font-norm.png");
+  background-image: url("../images/fa-font-norm.png");
 }
 
 .service_article .article-block .block--img.img2 {
-  background-image: url("/images/code.png");
+  background-image: url("../images/code.png");
 }
 
 .service_article .article-block .block--img.img3 {
-  background-image: url("/images/ring.png");
+  background-image: url("../images/ring.png");
 }
 
 .service_article .article-block .block--heading {
@@ -198,17 +198,17 @@ body {
 }
 
 .service_article .article-block:hover .block--img.img1 {
-  background-image: url("/images/fa-font-hov.png");
+  background-image: url("../images/fa-font-hov.png");
   background-color: #c0301c;
 }
 
 .service_article .article-block:hover .block--img.img2 {
-  background-image: url("/images/code-norm.png");
+  background-image: url("../images/code-norm.png");
   background-color: #c0301c;
 }
 
 .service_article .article-block:hover .block--img.img3 {
-  background-image: url("/images/fa-sup-hov.png");
+  background-image: url("../images/fa-sup-hov.png");
   background-color: #c0301c;
 }
 
@@ -464,7 +464,7 @@ body {
 }
 
 .project {
-  background-image: url("/images/baner2.jpg");
+  background-image: url("../images/baner2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -869,50 +869,50 @@ body {
 }
 
 .media-items.twit {
-  background-image: url("/images/fa-twitter.png");
+  background-image: url("../images/fa-twitter.png");
   -webkit-transition: background-image 0.5s, background-color 0.5s;
   transition: background-image 0.5s, background-color 0.5s;
 }
 
 .media-items.twit:hover {
   background-color: white;
-  background-image: url("/images/fa-twit-hov.png");
+  background-image: url("../images/fa-twit-hov.png");
   background-repeat: no-repeat;
 }
 
 .media-items.faceb {
-  background-image: url("/images/fa-facebook.png");
+  background-image: url("../images/fa-facebook.png");
   -webkit-transition: background-image 0.5s, background-color 0.5s;
   transition: background-image 0.5s, background-color 0.5s;
 }
 
 .media-items.faceb:hover {
   background-color: white;
-  background-image: url("/images/fa-face-hov.png");
+  background-image: url("../images/fa-face-hov.png");
   background-repeat: no-repeat;
 }
 
 .media-items.google {
-  background-image: url("/images/fa-google.png");
+  background-image: url("../images/fa-google.png");
   -webkit-transition: background-image 0.5s, background-color 0.5s;
   transition: background-image 0.5s, background-color 0.5s;
 }
 
 .media-items.google:hover {
   background-color: white;
-  background-image: url("/images/fa-google-hov.png");
+  background-image: url("../images/fa-google-hov.png");
   background-repeat: no-repeat;
 }
 
 .media-items.linkin {
-  background-image: url("/images/fa-linkind.png");
+  background-image: url("../images/fa-linkind.png");
   -webkit-transition: background-image 0.5s, background-color 0.5s;
   transition: background-image 0.5s, background-color 0.5s;
 }
 
 .media-items.linkin:hover {
   background-color: white;
-  background-image: url("/images/fa-link-hov.png");
+  background-image: url("../images/fa-link-hov.png");
   background-repeat: no-repeat;
 }
 

@@ -33,15 +33,15 @@
       transition: background-color 0.5s, background-image 0.5s;
 
       &.img1 {
-        background-image: url("/images/fa-font-norm.png");
+        background-image: url("../images/fa-font-norm.png");
       }
 
       &.img2 {
-        background-image: url("/images/code.png");
+        background-image: url("../images/code.png");
       }
 
       &.img3 {
-        background-image: url("/images/ring.png");
+        background-image: url("../images/ring.png");
       }
     }
 
@@ -53,17 +53,17 @@
       @include text-style;
     }
     &:hover .block--img.img1 {
-      background-image: url("/images/fa-font-hov.png");
+      background-image: url("../images/fa-font-hov.png");
       background-color: #c0301c;
     }
 
     &:hover .block--img.img2 {
-      background-image: url("/images/code-norm.png");
+      background-image: url("../images/code-norm.png");
       background-color: #c0301c;
     }
 
     &:hover .block--img.img3 {
-      background-image: url("/images/fa-sup-hov.png");
+      background-image: url("../images/fa-sup-hov.png");
       background-color: #c0301c;
     }
   }

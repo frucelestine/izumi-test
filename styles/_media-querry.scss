@@ -1,0 +1,154 @@
+@media screen and (max-width: 1300px) {
+  .posts,
+  .clients,
+  .intouch,
+  .foot {
+    padding: 22px 60px 50px;
+  }
+  .form-input {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header,
+  .service,
+  .about,
+  .latest,
+  .project,
+  .posts {
+    padding: 22px 60px 50px;
+  }
+
+  .latest_gallery .latest_gallery-items {
+    width: 200px;
+    height: 200px;
+  }
+
+  .posts_blog {
+    flex-direction: column;
+    text-align: center;
+
+    & .blog-img {
+      margin: 0 auto 50px;
+    }
+  }
+
+  .intouch_contact {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .intouch .intouch_contact .contact-info {
+    display: flex;
+    justify-content: space-between;
+    max-width: 683px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .header,
+  .service,
+  .about,
+  .latest,
+  .project,
+  .posts,
+  .intouch {
+    padding: 22px 15px 50px;
+  }
+  .burger {
+    display: block;
+  }
+
+  .logo {
+    position: fixed;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-74%);
+    width: 100% !important;
+    left: 0;
+    margin: 91px 0 0;
+    text-align: center;
+    background-color: #555555;
+    border-radius: 6px solid lightblue;
+    position: fixed;
+    z-index: 8;
+
+    & li {
+      margin-bottom: 20px;
+      font-size: 20px;
+    }
+  }
+  .nav-list.active {
+    transform: translateY(0%);
+    transition: transform 0.5s;
+    padding: 0;
+  }
+
+  .toggler .burger1 {
+    transform: rotate(45deg) translate(7px, 0);
+  }
+
+  .toggler .burger2 {
+    opacity: 0;
+  }
+  .toggler .burger3 {
+    transform: rotate(-45deg) translate(12px, -4px);
+  }
+  .service_article {
+    flex-direction: column;
+    align-items: center;
+
+    & .article-block {
+      margin-bottom: 40px;
+    }
+  }
+
+  .about_text {
+    flex-direction: column;
+  }
+
+  .latest_gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .latest_nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog-img {
+    width: 280px;
+  }
+
+  .blog-detail {
+    margin: 0;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  .contact-info {
+    flex-direction: column;
+  }
+
+  .contact-form {
+    text-align: center;
+  }
+
+  #name,
+  #subject {
+    margin-right: 0;
+  }
+
+  #email,
+  #company {
+    margin-left: 0;
+  }
+}

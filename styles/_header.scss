@@ -1,0 +1,95 @@
+.header {
+  background-image: url("../images/baner.jpg" );
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 22px 190px 140px;
+  box-sizing: border-box;
+  color: #ffffff;
+
+  & .header-nav {
+    margin-bottom: 182px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & .logo {
+      height: 20px;
+      z-index: 99;
+    }
+
+    & .nav-list {
+      display: flex;
+      justify-content: space-between;
+      width: 500px;
+      & li {
+        list-style: none;
+
+        & .nav-list_item {
+          text-decoration: none;
+          color: #ffffff;
+          transition: color 0.5s;
+
+          &:hover {
+            color: #b9bcc3;
+          }
+        }
+      }
+    }
+  }
+  & .welcome {
+    margin: 0 auto;
+    max-width: 580px;
+    text-align: center;
+
+    & .welcome_heading {
+      font-size: 48px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    & .welcome_note {
+      font-family: "Roboto Slab", serif;
+      margin-top: 0;
+      font-weight: 400;
+      font-size: 20px;
+    }
+
+    & .welcome_button {
+      outline: none;
+      cursor: pointer;
+      border: 2px solid #ffffff;
+      background-color: transparent;
+      color: #ffffff;
+      padding: 20px 34px;
+      border-radius: 3px;
+      font-size: 16px;
+      transition: background-color 0.5s, color 0.5s;
+
+      &:hover {
+        background-color: #ffffff;
+        color: #c0301c;
+      }
+    }
+  }
+}
+
+.burger{
+   width: 100%;
+   height: 40px;
+   padding: 10px 0 0 85%;
+   position: fixed;
+   text-align: right;
+   top: 0;
+   left: 0;
+   z-index: 9;
+   display: none;
+   cursor: pointer;
+   background-color: #555555;
+   & div{
+   width: 25px;
+   height: 4px;
+   margin: 4px;
+   border-radius: 2px;
+   background-color: black;
+  }
+}
